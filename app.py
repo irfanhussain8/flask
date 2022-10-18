@@ -6,8 +6,3 @@ def homepage():
     return "<h1>Hello this is python3 flask sample app </h1>"
 if __name__=="__main__":
     app.run(host='0.0.0.0',port=8080)
-@app.route("/about/")
-def homepage():
-    return "<h1>this is all about the app</h1>"
-if __name__=="__main__":
-    app.run(host='0.0.0.0',port=8080)
